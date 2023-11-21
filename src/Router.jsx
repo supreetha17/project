@@ -1,16 +1,3 @@
-// // import { createBrowserRouter } from "react-router-dom";
-// // import NavBar from "./Home/NavBar";
-// // import LoginPage from "./LoginPage";
-// // import Signup from "./Signup";
-
-// // const router = createBrowserRouter([
-// //   { path: "/home", element: <NavBar /> },
-// //   { path: "/", element: <LoginPage /> },
-// //   { path: "/signup", element: <Signup /> },
-// // ]);
-
-// // export default router;
-
 import React from "react";
 import { createBrowserRouter, Routes, Route } from "react-router-dom";
 import LoginPage from "./LoginPage";
@@ -72,7 +59,6 @@ const router = createBrowserRouter([
     element: (
       <Layout>
         <Routes>
-          {/* <Route index element={<NavBar />} /> */}
           <Route index element={<LayoutComponents />} />
         </Routes>
       </Layout>
@@ -82,57 +68,3 @@ const router = createBrowserRouter([
 ]);
 
 export default router;
-
-// import React from "react";
-// import { createBrowserRouter, Routes, Route } from "react-router-dom";
-// import LoginPage from "./LoginPage";
-// import Signup from "./Signup";
-// // import LayoutComponents from "./LayoutComponents";
-
-// const router = createBrowserRouter([
-//   {
-//     path: "/",
-//     element: (
-//       <LayoutComponents>
-//         <Routes>
-//           <Route index element={<LoginPage />} />
-//         </Routes>
-//       </LayoutComponents>
-//     ),
-//     children: [],
-//   },
-//   {
-//     path: "/signup",
-//     element: (
-//       // <LayoutComponents>
-//         <Routes>
-//           <Route index element={<Signup />} />
-//         </Routes>
-//       // </LayoutComponents>
-//     ),
-//     children: [],
-//   },
-//   // Add more routes as needed
-// ]);
-
-// export default router;
-
-// import { createBrowserRouter } from "react-router-dom";
-// // import NavBar from "./Project/NavBar";
-// // import LoginPage from "./Project/LoginPage";
-// // import Signup from "./Project/Signup";
-// import LinkLogin from "./LinkLogin";
-// import App from "./App";
-// import Linksignup from "./LinkSignup";
-// //import Sample from "./Project/Sample";
-// const router = createBrowserRouter([
-//   {
-//     path: "/home",
-//     element: <App />,
-//   },
-//   // { path: "./home", element: <Footer /> },
-//   { path: "/", element: <LinkLogin /> },
-//   { path: "/signup", element: <Linksignup /> },
-// ]);
-
-// export default router;
