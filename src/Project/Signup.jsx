@@ -1,4 +1,4 @@
-import React, { startTransition } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import {
   createTheme,
@@ -7,7 +7,6 @@ import {
   Typography,
   TextField,
   Button,
-  Checkbox,
 } from "@mui/material";
 
 const theme = createTheme({
@@ -26,8 +25,7 @@ const theme = createTheme({
     ].join(","),
   },
 });
-
-const LoginPage = () => {
+const Signup = () => {
   return (
     <div
       style={{
@@ -55,8 +53,25 @@ const LoginPage = () => {
           <br></br>
           <center>
             <Typography style={{ fontSize: "50px", fontFamily: "initial" }}>
-              Login Page
+              Sign Up
             </Typography>
+            <br></br>
+            <br></br>
+            <TextField
+              id="outlined-basic"
+              label="Firstname"
+              type="text"
+              variant="standard"
+              placeholder="Enter firstname"
+            />
+            &emsp;&emsp;&emsp;
+            <TextField
+              id="outlined-basic"
+              label="Lastname"
+              type="text"
+              variant="standard"
+              placeholder="Enter lastname"
+            />
             <br></br>
             <br></br>
             <TextField
@@ -71,42 +86,26 @@ const LoginPage = () => {
             <TextField
               label="Password"
               type="password"
-              id="outlined-basic"
+              id="outlined-basic-password"
               variant="standard"
               autoComplete="new-password"
               placeholder="Enter password"
-            >
-              Email Id &emsp;&emsp;
-            </TextField>
-            <br></br>
-            <Checkbox color="primary" /> Remember me
+            />
             <br></br>
             <br></br>
             <Link to="/home">
-              <Button variant="contained">Login</Button>
+              <Button variant="contained">Sign Up</Button>
             </Link>
             <br></br>
             <br></br>
-            <br></br>
             <Link
-              to="/signup"
+              to="/"
               style={{
                 color: "darkblue",
                 textDecoration: "none",
               }}
             >
-              {"Don't have an account?"}
-            </Link>
-            &emsp;&emsp;&emsp;
-            <Link
-              href="#"
-              underline="hover"
-              style={{
-                color: "darkblue",
-                textDecoration: "none",
-              }}
-            >
-              {"forgot password?"}
+              {"Already have an account?"}
             </Link>
           </center>
         </Paper>
@@ -115,4 +114,4 @@ const LoginPage = () => {
   );
 };
 
-export default LoginPage;
+export default Signup;
