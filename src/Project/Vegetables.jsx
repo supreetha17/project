@@ -5,7 +5,7 @@ import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
 import { CardActionArea } from "@mui/material";
 import { Link } from "react-router-dom";
-import image from "./vege.jpg";
+import image from "./vege.jpeg";
 export default function Vegetables() {
   return (
     <Card sx={{ maxWidth: 345, zIndex: 1 }}>

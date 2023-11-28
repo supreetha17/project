@@ -7,7 +7,7 @@ import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
 import { Grid } from "@mui/material"; // Import Grid component from Material-UI
 import CardActionArea from "@mui/material/CardActionArea";
-import image1 from "./tomato.avif";
+import image1 from "./tomato.jpeg";
 import image2 from "./onion.jpeg";
 import image6 from "./bottlegourd.jpeg";
 import image5 from "./carrot.jpeg";

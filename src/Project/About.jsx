@@ -1,17 +1,3 @@
-// import React from "react";
-// import Aboutcontent from "./Aboutcontent";
-// import NavBar from "./NavBar";
-// const About = () => {
-//   return (
-//     <div style={{ zIndex: 1 }}>
-//       <NavBar />
-//       <Aboutcontent />
-//     </div>
-//   );
-// };
-
-// export default About;
-
 import React from "react";
 import Aboutcontent from "./Aboutcontent";
 import NavBar from "./NavBar";

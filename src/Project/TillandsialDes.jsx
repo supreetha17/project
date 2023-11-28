@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import React from "react";
 import { Typography, Paper, Button } from "@mui/material";
-import TillandsiaimgDes from "./TillandsiaimgDes.jpg";
+import TillandsiaimgDes from "./tillandsiaimgdes.jpeg";
 
 const containerStyle = {
   backgroundImage: 'url("https://wallpaperaccess.com/full/754056.jpg")',

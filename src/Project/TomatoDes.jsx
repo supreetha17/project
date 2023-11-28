@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import React from "react";
 import { Typography, Paper, Button } from "@mui/material";
-import TomatoimgDes from "./TomatoimgDes.jpg";
+import TomatoimgDes from "./tomatoimgdes.jpeg";
 
 const containerStyle = {
   backgroundImage: 'url("https://wallpaperaccess.com/full/754056.jpg")',

@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import React from "react";
 import { Typography, Paper, Button } from "@mui/material";
-import SwissimgDes from "./SwissimgDes.jpg";
+import SwissimgDes from "./swissimgdes.jpeg";
 
 const containerStyle = {
   backgroundImage: 'url("https://wallpaperaccess.com/full/754056.jpg")',

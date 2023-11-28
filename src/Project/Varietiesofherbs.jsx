@@ -10,9 +10,9 @@ import CardActionArea from "@mui/material/CardActionArea";
 import image1 from "./borage.jpeg";
 import image2 from "./lavender.jpeg";
 import image6 from "./dill.jpeg";
-import image5 from "./tulsi.jpg";
+import image5 from "./tulsi.jpeg";
 import image3 from "./peppermint.jpeg";
-import image4 from "./rosemary.webp";
+import image4 from "./rosemary.jpeg";
 import { Link } from "react-router-dom";
 export default function Varietiesofherbs() {
   return (

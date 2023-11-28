@@ -7,11 +7,11 @@ import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
 import { Grid } from "@mui/material"; // Import Grid component from Material-UI
 import CardActionArea from "@mui/material/CardActionArea";
-import image1 from "./swizz.jpeg";
+import image1 from "./swiss.jpeg";
 import image2 from "./Anthurium.jpg";
 import image6 from "./peacelily.jpeg";
 import image5 from "./prayerplant.jpeg";
-import image3 from "./springofperls.jpeg";
+import image3 from "./string.jpeg";
 import image4 from "./tillandsia.jpeg";
 import { Link } from "react-router-dom";
 export default function Varietiesofvege() {

@@ -1,6 +1,6 @@
 import React from "react";
 import NavBar from "./NavBar";
-import Varietiesofap from "./Varitiesofap";
+import Varietiesofap from "./Varietiesofap";
 import Footer from "./Footer";
 const Vap = () => {
   return (

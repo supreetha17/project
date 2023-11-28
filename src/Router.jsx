@@ -3,7 +3,7 @@ import { createBrowserRouter, Routes, Route } from "react-router-dom";
 import LoginPage from "./Project/LoginPage";
 import Signup from "./Project/Signup";
 import leaves from "./leaves.mp4";
-import LayoutComponents from "./LayoutComponent";
+import LayoutComponents from "./LayoutComponents";
 import Vove from "./Project/Vove";
 import Voh from "./Project/Voh";
 import Vap from "./Project/Vap";
